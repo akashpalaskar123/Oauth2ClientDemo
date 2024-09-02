@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: SpringOauth2Demo
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: //google-client-id
+            client-secret: //google-client-secret
+          google:
+            client-id: //git-client-id
+            client-secret: //git-client-secret
